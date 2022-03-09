@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin: 3%;
+    padding: 2%;
+    text-align: justify;
+}
+button{
+    width:fit-content;
+    height:25px;
+    font-weight: bold;
+    display: inline;
+    margin: 10px 30px;
+    background-color: bisque;
+}
+.half-width img{
+    width: 100%;
+}
