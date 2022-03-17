@@ -1,21 +1,62 @@
 body{
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 .half-width{
-    width: 40%;
+    width: 38%;
     float:left;
     margin: 3%;
     padding: 2%;
     text-align: justify;
 }
-button{
-    width:fit-content;
-    height:25px;
-    font-weight: bold;
-    display: inline;
-    margin: 10px 30px;
-    background-color: bisque;
-}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(45deg,rgb(150, 55, 38),tomato);
+  padding: 7px 20px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: beige;
+} 
 .half-width img{
     width: 100%;
 }
+.top-banner{
+    background-image: url("/Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 20px;
+}
+.resume-banner{
+    background-image: url("/Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.shadow{
+        box-shadow: 10px 10px 30px gray;  
+        border-radius: 10px;  
+        height: 250px;
+        background-color: white;
+
+
+}
+.experience-area{
+    background-image: url("/Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#left-border-pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#left-border-noob{
+    border-left: 7px solid;
+    border-image: linear-gradient(green,magenta);
+    border-image-slice:1;
+}
+
+
+
